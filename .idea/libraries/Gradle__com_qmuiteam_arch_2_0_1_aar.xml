@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.qmuiteam:arch:2.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/d249f891bc57992591b7f2787c3e744f/transformed/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d249f891bc57992591b7f2787c3e744f/transformed/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d249f891bc57992591b7f2787c3e744f/transformed/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-ads-base:20.5.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a7f32851a04c8372aa65754fb224d306/transformed/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/68f8730afb0db03e55048308497d166c/transformed/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/68f8730afb0db03e55048308497d166c/transformed/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/68f8730afb0db03e55048308497d166c/transformed/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.startup:startup-runtime:1.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6f5d640aa2d9256c9ef01d3a4326df33/transformed/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6f5d640aa2d9256c9ef01d3a4326df33/transformed/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6f5d640aa2d9256c9ef01d3a4326df33/transformed/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

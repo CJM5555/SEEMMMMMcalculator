@@ -1,0 +1,246 @@
+<com.qmuiteam.qmui.layout.QMUILinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.qmuiteam.qmui.widget.QMUITopBar
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/qmui_config_color_blue"
+        android:textColor="@color/qmui_config_color_white">
+    </com.qmuiteam.qmui.widget.QMUITopBar>
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:id="@+id/lowerlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Please configure / setup the parameters"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/linear7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <LinearLayout
+                    android:id="@+id/linear5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    android:orientation="vertical"
+                    android:paddingVertical="8dp">
+
+                    <TextView
+                        android:id="@+id/textview2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingVertical="10dp"
+                        android:text="Excess :"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/textview3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingVertical="10dp"
+                        android:text="Positive Sign :"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/textview4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingVertical="10dp"
+                        android:text="Negative Sign : "
+                        android:textColor="#000000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="8dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="8dp">
+
+                    <EditText
+                        android:id="@+id/edittext1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="00 - 99"
+                        android:text="50"
+                        android:imeOptions="actionNext"
+                        android:inputType="numberSigned"
+                        android:padding="8dp"
+                        android:textColor="#000000"
+                        android:textColorHint="#607D8B" />
+
+                    <EditText
+                        android:id="@+id/edittext2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="0 - 9"
+
+                        android:imeOptions="actionNext"
+                        android:inputType="numberSigned"
+                        android:padding="8dp"
+                        android:textColor="#000000"
+                        android:textColorHint="#607D8B" />
+
+                    <EditText
+                        android:id="@+id/edittext3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="0 - 9"
+
+                        android:imeOptions="actionNext"
+                        android:inputType="numberSigned"
+                        android:padding="8dp"
+                        android:textColor="#000000"
+                        android:textColorHint="#607D8B" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/upperlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textview5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Operation"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:spinnerMode="dialog" />
+
+            <EditText
+                android:id="@+id/editoperand1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="2dp"
+                android:hint="Enter your first operand here.."
+
+                android:imeOptions="actionNext"
+                android:inputType="numberSigned"
+                android:padding="8dp"
+                android:textColor="#000000"
+                android:textColorHint="#607D8B" />
+
+            <EditText
+                android:id="@+id/editoperand2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="8dp"
+                android:hint="Enter your second operand here.."
+
+                android:imeOptions="actionGo"
+                android:inputType="numberSigned"
+                android:padding="8dp"
+                android:textColor="#000000"
+                android:textColorHint="#607D8B" />
+
+            <LinearLayout
+                android:id="@+id/linear8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+                    android:id="@+id/calculatebtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:padding="10dp"
+                    android:text="Calculate" />
+
+                <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+                    android:id="@+id/resetbtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:padding="10dp"
+                    android:text="Reset" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/textview6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Result"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textColor="#E91E63" />
+
+            <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+                android:id="@+id/watchadsbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:text="Show working steps\n(Watch ads)" />
+        </LinearLayout>
+
+    </LinearLayout>
+</com.qmuiteam.qmui.layout.QMUILinearLayout>

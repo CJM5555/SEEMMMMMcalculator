@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.ump:user-messaging-platform:1.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c48940c44ef12a568e70e4cd8614944a/transformed/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/03be1d9c403534a90f6d4ff71ed494aa/transformed/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/03be1d9c403534a90f6d4ff71ed494aa/transformed/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/03be1d9c403534a90f6d4ff71ed494aa/transformed/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
